@@ -14,7 +14,7 @@ const campiRouter = require('./routes/campi');
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "https://teamupfrontend.onrender.com"
 };
 
 app.use(cors(corsOptions));
